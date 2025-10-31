@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hotels xmlns="http://example.com/hotels"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://example.com/hotels https://raw.githubusercontent.com/<your-username>/hotel-xsd/main/hotels.xsd">
+
+<!-- 10 real world hotels -->
+    <!-- Hotel 1-->
+  <Hotel>
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+<!-- Hotel 2-->
+  <Hotel>
+    <Name>Radisson Hotel Phoenix Airport</Name>
+    <Phone>866-994-8801</Phone>
+    <Address>
+      <Number>427</Number>
+      <Street>North 44th Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>8.1</Rating>
+  </Hotel>
+
+<!-- Hotel 3-->
+  <Hotel>
+    <Name>Red Roof Inn Phoenix North</Name>
+    <Phone>937-328-1593</Phone>
+    <Address>
+      <Number>17222</Number>
+      <Street>North Black Canyon Highway</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85053</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>7.0</Rating>
+  </Hotel>
+
+<!-- Hotel 4-->
+  <Hotel>
+    <Name>Cambria Hotel Downtown Phoenix</Name>
+    <Phone>623-462-8271</Phone>
+    <Address>
+      <Number>222</Number>
+      <Street>E. Portland Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>8.5</Rating>
+  </Hotel>
+
+  <!-- Hotel 5-->
+  <Hotel>
+    <Name>ARIZONA GRAND RESORT &amp; SPA</Name>
+    <Phone>877-800-4888</Phone>
+    <Address>
+      <Number>8000</Number>
+      <Street>S. Arizona Grand Pkwy</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 6-->
+  <Hotel>
+    <Name>Hilton Tapatio Cliffs Resort</Name>
+    <Phone>602-491-9407</Phone>
+    <Address>
+      <Number>11111</Number>
+      <Street>N 7th St Phoenix</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>8.1</Rating>
+  </Hotel>
+
+  <!-- Hotel 7-->
+  <Hotel>
+    <Name>The Mccormick Scottsdale</Name>
+    <Phone>480-948-5050</Phone>
+    <Address>
+      <Number>7421</Number>
+      <Street>North Scottsdale Road</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 8-->
+  <Hotel>
+    <Name>Talking Stick Resort</Name>
+    <Phone>480-400-6008</Phone>
+    <Phone>480-850-7777</Phone>
+    <Address>
+      <Number>9800</Number>
+      <Street>East Talking Stick Wat</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>8.7</Rating>
+  </Hotel>
+
+  <!-- Hotel 9-->
+  <Hotel>
+    <Name>The Monarch Scottsdale</Name>
+    <Phone>623-352-7272</Phone>
+    <Address>
+      <Number>4000</Number>
+      <Street>N Drinkwater Blvd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 10-->
+  <Hotel>
+    <Name>Drury Plaza Hotel Phoenix Tempe</Name>
+    <Phone>480-940-3700</Phone>
+    <Address>
+      <Number>1780</Number>
+      <Street>W. Ranch Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85284</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>9.3</Rating>
+  </Hotel>
+</Hotels>
