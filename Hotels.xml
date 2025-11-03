@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Hotels xmlns="http://example.com/hotels"
+<Hotels xmlns="http://Assignment4.com/hotels"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://example.com/hotels https://raw.githubusercontent.com/<your-username>/hotel-xsd/main/hotels.xsd">
+        xsi:schemaLocation="http://Assignment4.com/hotels https://raw.githubusercontent.com/Andrew2aba/hotel-xsd/main/hotels.xsd">
 
 <!-- 10 real world hotels -->
     <!-- Hotel 1-->
