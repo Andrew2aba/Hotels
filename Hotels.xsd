@@ -7,7 +7,7 @@
     <xsd:element name="Hotels">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name ="Hotel" maxOccurs"10">
+                <xsd:element name ="Hotel" maxOccurs"unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
                             <xsd:element name="Name" type="xsd:string"/>
@@ -16,11 +16,11 @@
                                 <xsd:complexType>
                                     <xsd:sequence>
                                         <xsd:element name="Number" type="xsd:integer"/>
-                                        <xsd:element name="Street" type="xsd.string"/>
-                                        <xsd:element name="City" type="xsd.string"/>
-                                        <xsd:element name="State" type="xsd.string"/>
-                                        <xsd:element name="Zip" type="xsd.integer"/>
-                                        <xsd:element name="NearestAirport" type="xsd.string"/>
+                                        <xsd:element name="Street" type="xsd:string"/>
+                                        <xsd:element name="City" type="xsd:string"/>
+                                        <xsd:element name="State" type="xsd:string"/>
+                                        <xsd:element name="Zip" type="xsd:string"/>
+                                        <xsd:element name="NearestAirport" type="xsd:string"/>
                                     <xsd:sequence>
                                 <xsd:complexType>
                             <xsd:element>
@@ -30,6 +30,5 @@
                 <xsd:element>
             <xsd:sequence>
         <xsd:complexType>
-    <xsd:element>    
-
+    <xsd:element>  
 <xsd:schema>
