@@ -11,10 +11,7 @@
           <xsd:complexType>
             <xsd:sequence>
               <xsd:element name="Name" type="xsd:string"/>
-              <!-- one or more phones -->
               <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-
-              <!-- structured address -->
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
@@ -24,19 +21,16 @@
                     <xsd:element name="State"  type="xsd:string"/>
                     <xsd:element name="Zip"    type="xsd:string"/>
                   </xsd:sequence>
+                  <!-- REQUIRED attribute here -->
+                  <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
                 </xsd:complexType>
               </xsd:element>
-
-              <!-- optional NearestAirport element -->
-              <xsd:element name="NearestAirport" type="xsd:string" minOccurs="0"/>
             </xsd:sequence>
-
-            <!-- Rating is an optional ATTRIBUTE (matches your code) -->
+            <!-- OPTIONAL attribute on Hotel -->
             <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
           </xsd:complexType>
         </xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
-
 <xsd:schema>
