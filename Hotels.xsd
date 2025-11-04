@@ -33,4 +33,4 @@
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
-<xsd:schema>
+</xsd:schema>
